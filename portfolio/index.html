@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfilo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+<header id="home">
+    <nav class="continer">
+        <div class="img"></div>
+        <ul>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-g"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-github-alt"></i>
+        </ul>
+    </nav>
+
+    <div class="header_text">
+        <h4>Hello , I am </h4>
+        <h1>Afaf Nossier .</h1>
+        <p>Front End Developer | designer</p>
+        <button><i class="fa-solid fa-print"></i> Print Resume</button>
+    </div>
+    <section class="about" > 
+        <div class="logo">
+            <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
+            <strong><span>El</span>_Nossier</strong>
+        </div>
+    
+        <div class="logo_detail">
+            <div class="port"> Afaf Noosier<br>Front End Developer | designer</div>
+            <div class="logoImg">
+                <img src="image/homePhoto.jpg">
+            </div>
+            <div class="list">
+                <ul>
+                    <a href="#home"><li class="active"  onclick="activelist('home')">Home</li></a>
+                    <a href="#about"><li onclick="activelist('about')">About</li></a>
+                    <a href="#service"><li onclick="activelist('service')">service</li></a>
+                    <a href="#portfilo"><li onclick="activelist('portfilo')">Portfilo</li></a>
+                    <a href="#contact"><li onclick="activelist('contact')">Contact</li></a>
+                    
+    
+                </ul>
+            </div>
+        </div>   
+    </section>
+</header>
+
+
+<!-- _____________________________________________________________________ -->
+<section class=".totop">
+    <div class="btnup"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+</section>
+<!-- _____________________________________________________________________ -->
+<section class="About_Us" id="about">
+<div class="contanier">
+
+    <div class="row">
+        <div class="About_col_1">
+            <img src="image/about-me.jfif" >
+        </div>
+        <div class="About_col_2">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dolor exercitationem! Labore molestiae quo saepe explicabo itaque vel cupiditate autem dolor perspiciatis, eius consequuntur, dolorum dolorem magni enim aut dolore.</p>
+            <div class="sub_titles">
+                <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                <p class="tab_links" onclick="opentab('eperience')">Eperience</p>
+                <p class="tab_links" onclick="opentab('education')">Education </p>
+            </div>
+
+            <div class="tab_contents active_tab" id="skills">
+                <ul>
+                    <li><span>Ui/UX</span><br>Designer Web/App interfaces</li>
+                    <li><span>Web Developement</span><br>Web App Developement</li>
+                    <li><span>App Developement</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+                
+            <div class="tab_contents" id="eperience">
+                <ul>
+                    <li><span>2023 - current</span><br>Summer Training in iti .</li>
+                    <li><span>2022</span><br>UL/UX Design training</li>
+                    <li><span>2021</span><br>learning HTML , CSS , JS</li>
+                </ul>
+            </div>
+
+            <div class="tab_contents" id="education">
+                <ul>
+                    <li><span>2021</span><br>Designer Web/App interfaces</li>
+                    <li><span>2022</span><br>Web App Developement</li>
+                    <li><span>2023</span><br>Front  End using react </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- __________________________________________________________________________ -->
+<section id="service">
+    <div class="continers">
+
+        <h1 class="sub_titles">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h3>web Design</h3>
+                <p>Lorem adipisicing elit. Culpa id officiis, cupiditate ipsum nulla iure nostrum odit molestiae fugit iusto tempora optio molestias non maiores veritatis,
+                    </p>
+                    <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h3>UI/UX Design</h3>
+                <p>Lorem adipisicing elit. Culpa id officiis, cupiditate ipsum nulla iure nostrum odit molestiae fugit iusto tempora optio molestias non maiores veritatis,
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h3>graphical Design</h3>
+                <p>Lorem adipisicing elit. Culpa id officiis, cupiditate ipsum nulla iure nostrum odit molestiae fugit iusto tempora optio molestias non maiores veritatis,
+                </p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- _______________________________________________________________________ -->
+
+<section class="portfilo" id="portfilo">
+    <div class="continers">
+
+        <h1 class="sub_titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/1.jpeg">
+
+                <div class="layer">
+                    <h3>Dream Hup</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicin!</P>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/image-2.webp">
+
+                <div class="layer">
+                    <h3>Security Service</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicin!</P>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+            <div class="work">
+                <img src="image/image-3.webp">
+                <div class="layer">
+                    <h3>Front End</h3>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicin!</P>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+</section>
+<!-- ____________________________________________ -->
+
+<section id="contact" >
+    <div class="continers">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub_titles">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>afaf@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>01030757155</p>
+                <div class="social-icon">
+                    <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-g"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+                <a href="./ES6 lab Day 1.pdf"  class="btn btn2" download> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="#">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- _______________________________________________________________________ -->
+
+<section>
+
+    <div class="copyRight">
+        <p>Copyright @ afaf .Made With <i class="fas fa-heart"></i> by Easy tutorialy .</p>
+    </div>
+</section>
+
+    <script src="main.js"></script>
+</body>
+</html>
